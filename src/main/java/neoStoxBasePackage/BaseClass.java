@@ -22,16 +22,12 @@ public class BaseClass
 	driver.manage().window().maximize();
 	//Reporter.log("Launching browser",true);
 	Utility1.wait(driver, 1000);
-	
-	
-	//System.out.println();
+
 	}
 	
 	public static void closingBrowser(WebDriver driver) throws InterruptedException
 	{
 		
-		
-	//Reporter.log("closing browser", true);
 	Thread.sleep(500);
 	driver.close();
 	
